@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:weightSum="1"
+    android:background="@color/cardview_dark_background"
+   >
+
+ <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="top|center"
+        android:layout_margin="7dp"
+         android:layout_weight="0.15"
+      ></ImageView>
+
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="10dip" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        android:textColor="@android:color/white"
+ />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:hint="User Name"
+        android:background="@android:color/white"
+        ></androidx.appcompat.widget.AppCompatEditText>
+
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+       />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:hint="Password"
+        android:background="@android:color/white"
+        ></androidx.appcompat.widget.AppCompatEditText>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="?attr/colorButtonNormal"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="SIGN IN"
+        android:layout_gravity="center"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@color/fb"
+        android:text="Connect with Facebook"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+       />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="?attr/colorButtonNormal"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:text="SIGN UP" />
+
+</LinearLayout>
